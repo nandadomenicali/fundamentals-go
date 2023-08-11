@@ -16,4 +16,9 @@ func main() {
 	num, _ := strconv.Atoi("200")
 	fmt.Println(num - 199)
 
+	b, _ := strconv.ParseBool("true")
+	if b {
+		fmt.Println("Is bool")
+	}
+
 }
